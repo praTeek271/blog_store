@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Blog Store{% endblock %}</title>
+    <!-- Add any additional styling or scripts here -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Blog Store</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('add_post') }}">Add Post</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Blog Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
