@@ -3,6 +3,7 @@ This Repo consists of the following files :
 - .git
 - .gitignore
 - app
+- README.md
 - run.py
 
 
@@ -15,4 +16,4 @@ This Repo consists of the following files :
 <br>
 
 
-- uses github
+- this is a test repo
