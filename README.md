@@ -18,4 +18,4 @@ This Repo consists of the following files :
 <br>
 
 
-- i am a bot
+- can be used for any repo
