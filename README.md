@@ -18,4 +18,4 @@ This Repo consists of the following files :
 <br>
 
 
-- uses random module
+- automated commit
